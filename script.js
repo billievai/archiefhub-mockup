@@ -1,4 +1,5 @@
 document.getElementById('copyUrlButton').addEventListener('click', function() {
+    event.preventDefault(); 
     const textElement = document.getElementById('copyUrl');
     const url = getTextContentWithoutHTML(textElement);
 

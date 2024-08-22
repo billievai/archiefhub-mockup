@@ -13,25 +13,29 @@
     });
     lightbox.init();
   </script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
 
 
   <link href="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css" rel="stylesheet">
   <style>
     table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    table, th, td {
-        border: 1px solid black;
-    }
-    th, td {
-        padding: 8px;
-        text-align: left;
+      width: 100%;
+      border-collapse: collapse;
     }
 
-</style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+    }
+
+    th,
+    td {
+      padding: 8px;
+      text-align: left;
+    }
+  </style>
 
 </head>
 
@@ -44,19 +48,6 @@
       <div class="region region--highlighted clearfix">
 
         <div class="region--highlighted-inner region-inner">
-          <div id="block-seven-primary-local-tasks" class="block block-core block-local-tasks-block hidden">
-
-
-            <nav class="tabs" role="navigation" aria-label="Tabs">
-              <h2 class="visually-hidden">Primaire tabs</h2>
-              <ul class="tabs primary">
-                <li class="is-active"><a href="/object/497" data-drupal-link-system-path="object/497"
-                    class="is-active">Weergeven<span class="visually-hidden">(actieve tabblad)</span></a></li>
-                <li><a href="/object/497/edit" data-drupal-link-system-path="object/497/edit">Bewerken</a></li>
-              </ul>
-
-            </nav>
-          </div>
           <div id="block-pagetitle" class="block block-core block-page-title-block">
 
 
@@ -76,118 +67,153 @@
       <div class="region region--content clearfix">
         <div class="region--content-inner region-inner">
           <div class="container">
-              <div class="region--content-mid-inner  sidebar-right
+            <div class="region--content-mid-inner  sidebar-right
                           ">
-                <div id="block-mainpagecontent" class="block block-system block-system-main-block">
+              <div id="block-mainpagecontent" class="block block-system block-system-main-block">
 
 
 
-                  <article class="node node--type-object node--view-mode-full">
+                <article class="node node--type-object node--view-mode-full">
 
 
-                    <div class="node__content">
-                        <div class="row">
-                        <div class="cols--1 cols--md--1
+                  <div class="node__content">
+                    <div class="row">
+                      <div class="cols--1 cols--md--1
                         cols--lg--4 colspan--lg--3 cols--xl--5 colspan--xl--4">
-                      <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
-                        <legend>
-                          <span class="fieldset-legend">Archiefcontext</span>
-                        </legend>
-                        <div class="fieldset-wrapper">
+                        <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
+                          <legend>
+                            <span class="fieldset-legend">Archiefcontext</span>
+                          </legend>
+                          <div class="fieldset-wrapper">
 
-                          <div
-                            class="field field--name-field-archive-id field--type-entity-reference field--label-above">
-                            <div class="field__label">Uit archief</div>
-                            <div class="field__item"><a href="/node/73734" hreflang="nl">Beeldarchief van bouwbedrijf
-                                Van Laere</a></div>
-                          </div>
-
-                          <div
-                            class="field field--name-field-related-archive field--type-entity-reference field--label-above">
-                            <div class="field__label">Uit bestanddeel</div>
-                            <div class="field__items">
-                              <div class="field__item"><a href="/node/73840" hreflang="nl">Reeks fotoalbums van Van
-                                  Laere</a></div>
+                            <div
+                              class="field field--name-field-archive-id field--type-entity-reference field--label-above">
+                              <div class="field__label">Uit archief</div>
+                              <div class="field__item"><a href="/node/73734" hreflang="nl">Beeldarchief van bouwbedrijf
+                                  Van Laere</a></div>
                             </div>
+
+                            <div
+                              class="field field--name-field-related-archive field--type-entity-reference field--label-above">
+                              <div class="field__label">Uit bestanddeel</div>
+                              <div class="field__items">
+                                <div class="field__item"><a href="/node/73840" hreflang="nl">Reeks fotoalbums van Van
+                                    Laere</a></div>
+                              </div>
+                            </div>
+
                           </div>
+                        </fieldset>
+                        <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
+                          <legend>
+                            <span class="fieldset-legend">Identificatie</span>
+                          </legend>
+                          <div class="fieldset-wrapper">
+  
+                            <div class="flex field field--name-field-object-number field--type-string field--label-above">
+                              <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 5 60 50">
+                                <path d="M 7 2 L 7 48 L 43 48 L 43 14.59375 L 42.71875 14.28125 L 30.71875 2.28125 L 30.40625 2 Z M 9 4 L 29 4 L 29 16 L 41 16 L 41 46 L 9 46 Z M 31 5.4375 L 39.5625 14 L 31 14 Z M 15 22 L 15 24 L 35 24 L 35 22 Z M 15 28 L 15 30 L 31 30 L 31 28 Z M 15 34 L 15 36 L 35 36 L 35 34 Z"></path>
+                                </svg>
+                              <div class="flex">
+                              <div class="field__label">Objectnummer</div>
+                              <div class="field__item">obj-0004001</div>
+                              </div>
+                            </div>
 
-                        </div>
-                      </fieldset>
-                      <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
-                        <legend>
-                          <span class="fieldset-legend">Identificatie</span>
-                        </legend>
-                        <div class="fieldset-wrapper">
+                            <div
+                              class="field field--name-field-thesaurus-object-type field--type-entity-reference field--label-above">
+                              <div class="field__label">Objectnaam</div>
+                              <div class="field__item">Album (foto)</div>
+                            </div>
 
-                          <div class="field field--name-field-object-number field--type-string field--label-above">
-                            <div class="field__label">Objectnummer</div>
-                            <div class="field__item">obj-0004001</div>
+                            <div class="field field--name-field-name field--type-string field--label-above">
+                              <div class="field__label">Naam</div>
+                              <div class="field__item">obj-0004001, Fotoalbum betreffende het bouwen van een betonnen
+                                afdak in het vierde havendok te Antwerpen</div>
+                            </div>
+
+                            <div class="field field--name-field-start-date field--type-string field--label-above">
+                              <div class="field__label">Datering van</div>
+                              <div class="field__item">1955</div>
+                            </div>
+
+                            <div class="field field--name-field-end-date field--type-string field--label-above">
+                              <div class="field__label">Datering tot</div>
+                              <div class="field__item">1956</div>
+                            </div>
+
+                            <div class="flex field field--name-field-date-text field--type-string field--label-above">
+                            <svg style="height: 24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150"><path d="M113.854 22.323h-9.667v-2.677a7.25 7.25 0 0 0-14.5 0v2.677H38.313v-2.677a7.25 7.25 0 0 0-14.5 0v2.677h-9.667a1.75 1.75 0 0 0-1.75 1.75v89.781a1.751 1.751 0 0 0 1.75 1.75h99.708a1.751 1.751 0 0 0 1.75-1.75V24.073a1.75 1.75 0 0 0-1.75-1.75zm-20.667-2.677a3.75 3.75 0 0 1 7.5 0V28.5a3.75 3.75 0 0 1-7.5 0zm-65.874 0a3.75 3.75 0 0 1 7.5 0V28.5a3.75 3.75 0 0 1-7.5 0zm-3.5 6.177V28.5a7.25 7.25 0 0 0 14.5 0v-2.677h51.374V28.5a7.25 7.25 0 0 0 14.5 0v-2.677h7.913V44.2H15.9V25.823zM15.9 112.1V47.7h96.2v64.4z"/><path d="M40.2 56h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V57.75A1.749 1.749 0 0 0 40.2 56zm-1.75 8.719h-5.221V59.5h5.218zM58.972 56h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V57.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V59.5h5.219zM77.747 56h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V57.75a1.749 1.749 0 0 0-1.75-1.75zM76 64.719h-5.222V59.5H76zM96.521 56H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V57.75A1.749 1.749 0 0 0 96.521 56zm-1.75 8.719h-5.218V59.5h5.218zM40.2 74h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V75.75A1.749 1.749 0 0 0 40.2 74zm-1.75 8.719h-5.221V77.5h5.218zM58.972 74h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V75.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V77.5h5.219zM77.747 74h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V75.75a1.749 1.749 0 0 0-1.75-1.75zM76 82.719h-5.222V77.5H76zM96.521 74H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V75.75A1.749 1.749 0 0 0 96.521 74zm-1.75 8.719h-5.218V77.5h5.218zM40.2 92h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V93.75A1.749 1.749 0 0 0 40.2 92zm-1.75 8.719h-5.221V95.5h5.218zM58.972 92h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V93.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V95.5h5.219zM77.747 92h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V93.75a1.749 1.749 0 0 0-1.75-1.75zM76 100.719h-5.222V95.5H76zM96.521 92H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V93.75A1.749 1.749 0 0 0 96.521 92zm-1.75 8.719h-5.218V95.5h5.218z"/></svg>
+                            <div class="flex">
+                              <div class="field__label">Datering bijzonderheden</div>
+                              <div class="field__item">1955-1956</div>
+                              </div>
+                            </div>
+
+                            <div class="flex field field--name-field-creator field--type-string field--label-above">
+                              <svg width="24" height="24" viewBox="0 3 26 24"> fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12ZM12 14C9.33 14 4 15.34 4 18V20H20V18C20 15.34 14.67 14 12 14Z"  fill="#000" 
+                                <!-- stroke="#000" stroke-width="0.5" -->
+                                />
+                            </svg>
+                            <div class="flex">
+                              <div class="field__label">Vervaardiger</div>
+                              <div class="field__item">Philippi, Frank</div>
+                              </div>
+                            </div>
+
+                            <div class="flex field field--name-field-number-of-parts field--type-string field--label-above">
+                              <svg width="24" height="24" viewBox="0 1 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 4H4C2.9 4 2 4.9 2 6V10H4V6H20V10H22V6C22 4.9 21.1 4 20 4ZM2 14V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V14H20V18H4V14H2ZM8 12H16V14H8V12Z" fill="#000"/>
+                            </svg>
+                            <div class="flex">
+                              <div class="field__label">Aantal onderdelen</div>
+                              <div class="field__item">1</div>
+                            </div>
+                            </div>
+
                           </div>
+                        </fieldset>
+                        <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
+                          <legend>
+                            <span class="fieldset-legend">Inhoud</span>
+                          </legend>
+                          <div class="fieldset-wrapper">
 
-                          <div
-                            class="field field--name-field-thesaurus-object-type field--type-entity-reference field--label-above">
-                            <div class="field__label">Objectnaam</div>
-                            <div class="field__item">Album (foto)</div>
+                            <div
+                              class="field field--name-field-brief-description field--type-string-long field--label-hidden field__item">
+                              Fotografisch materiaal van de aanleg van een betonnen afdak in het vierde havendok te
+                              Antwerpen.</div>
+
                           </div>
-
-                          <div class="field field--name-field-name field--type-string field--label-above">
-                            <div class="field__label">Naam</div>
-                            <div class="field__item">obj-0004001, Fotoalbum betreffende het bouwen van een betonnen
-                              afdak in het vierde havendok te Antwerpen</div>
-                          </div>
-
-                          <div class="field field--name-field-start-date field--type-string field--label-above">
-                            <div class="field__label">Datering van</div>
-                            <div class="field__item">1955</div>
-                          </div>
-
-                          <div class="field field--name-field-end-date field--type-string field--label-above">
-                            <div class="field__label">Datering tot</div>
-                            <div class="field__item">1956</div>
-                          </div>
-
-                          <div class="field field--name-field-date-text field--type-string field--label-above">
-                            <div class="field__label">Datering bijzonderheden</div>
-                            <div class="field__item">1955-1956</div>
-                          </div>
-
-                          <div class="field field--name-field-creator field--type-string field--label-above">
-                            <div class="field__label">Vervaardiger</div>
-                            <div class="field__item">Philippi, Frank</div>
-                          </div>
-
-                          <div class="field field--name-field-number-of-parts field--type-string field--label-above">
-                            <div class="field__label">Aantal onderdelen</div>
-                            <div class="field__item">1</div>
-                          </div>
-
-                        </div>
-                      </fieldset>
+                        </fieldset>
                       </div>
-                               <div class="region--content-right-inner cols--1 cols--lg--4 cols--xl--5">
+                      <div class="region--content-right-inner cols--1 cols--lg--4 cols--xl--5">
                         <div class="surface">
                           <div id="block-persistenturlblock" class="block block-general block-persistent-url-block">
-                    
-                    
+
+
                             <p>
                               <strong>PID:</strong>
-                              <span  id="copyUrl">data.flandersarchitecture.be<wbr>/object/497</span>
+                              <span id="copyUrl">data.flandersarchitecture.be<wbr>/object/497</span>
                             </p>
                             <div style="display: flex;">
-                                <svg width="20" height="20" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                  <rect x="3" y="3" width="14" height="18" rx="2" ry="2" stroke="black" stroke-width="2"
-                                    fill="white" />
-                                  <rect x="7" y="7" width="14" height="18" rx="2" ry="2" stroke="black" stroke-width="2"
-                                    fill="white" />
-                                </svg><a href="" id="copyUrlButton">Kopieer URL</a>
-                              </div>
-                              <p id="statusMessage"></p>
-                              <script src="./script.js"></script>
-                    
+                              <svg width="20" height="20" viewBox="0 0 26 26" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <rect x="3" y="3" width="14" height="18" rx="2" ry="2" stroke="black" stroke-width="2"
+                                  fill="white" />
+                                <rect x="7" y="7" width="14" height="18" rx="2" ry="2" stroke="black" stroke-width="2"
+                                  fill="white" />
+                              </svg><a href="" id="copyUrlButton">Kopieer URL</a>
+                            </div>
+                            <p id="statusMessage"></p>
+                            <script src="./script.js"></script>
+
                           </div>
-                          <div id="block-searchinarchiveblock" class="block block-general block-search-in-archive-block">
-                    
-                    
+                          <div id="block-searchinarchiveblock"
+                            class="block block-general block-search-in-archive-block">
+
+
                             <!-- <p class="search-field">
                     <label>Zoeken binnen dit archief:</label>
                     <input type="text" id="seach-in-archive" data-link="/zoeken?search_api_fulltext=REPLACE_TOKEN&amp;f%5B0%5D=archief%3ABeeldarchief+van+bouwbedrijf+Van+Laere" />
@@ -197,9 +223,10 @@
                     <a href="/zoeken" class="button">Terug naar zoeken</a>
                     </p> -->
                             <p>
-                              <a href="mailto:architectuurarchief@vai.be?SUBJECT=Aanvraag obj-0004001" class="button mailto"
-                                data-extlink="">Vraag aan<svg focusable="false" class="mailto" role="img"
-                                  aria-label="(link sends email)" xmlns="http://www.w3.org/2000/svg" viewBox="0 10 70 20">
+                              <a href="mailto:architectuurarchief@vai.be?SUBJECT=Aanvraag obj-0004001"
+                                class="button mailto" data-extlink="">Vraag aan<svg focusable="false" class="mailto"
+                                  role="img" aria-label="(link sends email)" xmlns="http://www.w3.org/2000/svg"
+                                  viewBox="0 10 70 20">
                                   <metadata>
                                     <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
                                       <slicesourcebounds y="-8160" x="-8165" width="16389" height="16384"
@@ -218,313 +245,323 @@
                                   </path>
                                 </svg></a>
                             </p>
-                    
+
                           </div>
                           <div id="block-exporttojsonblock-2" class="block block-general block-export-block">
-                    
-                    
+
+
                             <a href="/object/497/json" target="_blank" class="btn btn-default">+ Zie json</a>
-                    
+
                           </div>
-                    
-                    
+
+
                         </div>
                       </div>
-                      </div>
-                      </div>
-                    <div class="row flex ">
-                        
+
+                    </div>
+
+                  </div>
+
+                  <div class="row flex">
+
                     <div class="cols--1 cols--md--1
                       cols--lg--4 colspan--lg--3 cols--xl--5 colspan--xl--4" style="width: 50%;">
+
+
+                      <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
+                        <legend>
+                          <span class="fieldset-legend">Projectinformatie</span>
+                        </legend>
+                        <table class="views-table views-view-table" style="margin-bottom: 0px;">
+                          <tr>
+                            <th id="view-title-table-column" class="views-field views-field-title" scope="col">Adres
+                            </th>
+                            <td>Kaaien 249-251-253 - vierde havendok</td>
+                          </tr>
+                          <tr>
+                            <th>Gemeente (referentie)</th>
+                            <td>Antwerpen (België > Vlaanderen > Provincie Antwerpen > Arrondissement Antwerpen >
+                              Antwerpen)</td>
+                          </tr>
+                          <tr>
+                            <th>Land</th>
+                            <td>België</td>
+                          </tr>
+                          <tr>
+                            <th>Type (referentie)</th>
+                            <td>Industrie en nijverheid</td>
+                          </tr>
+                          <tr>
+                            <th>Status</th>
+                            <td>Uitgevoerd</td>
+                          </tr>
+                          <tr>
+                            <th>Opdrachtgever(s)</th>
+                            <td>Havenbedrijf Stad Antwerpen</td>
+                          </tr>
+                          <tr>
+                            <th>Samenwerkingen</th>
+                            <td>Van Laere (aannemer)</td>
+                          </tr>
+                          <tr>
+                            <th>Beschrijving</th>
+                            <td>Afmetingen : 24 beuken elk van 15m overspanning en 67m lengte<br>
+                              Totale afmetingen : 360 m x 67<br>
+                              Termijn 12 maanden<br>
+                              Aannemingsbedrag : 22 000 000 F
+                            </td>
+                          </tr>
+                        </table>
+                        <br />
+                        <br />
+                      </fieldset>
+                    </div>
+                    <div class="cols--1 cols--lg--4 cols--xl--5"
+                      style="width: 50%; max-height: 100%;padding-bottom: 16px">
+                      <div id="map-object" class="map-object" style="height: 100%;"></div>
+
+                      <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+                        integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+                      <script src="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js"></script>
+
+                      <script>
+
+                        // Initialize the map
+                        var map = L.map('map-object').setView([51.2213, 4.4051], 13);
+
+                        // Your Mapbox access token
+                        var accessToken = 'pk.eyJ1IjoiYnB2YWkiLCJhIjoiY2x5enkwMzYzMjdxNTJtcXJmdTBocmYwbiJ9.nhaiiCS1Xh7CF-EK_rwYnQ';
+
+                        // Add the Mapbox tile layer
+                        L.tileLayer('https://api.mapbox.com/styles/v1/bpvai/clyzxu2wh00gb01p68jpc7216/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiYnB2YWkiLCJhIjoiY2x5enhuZDBxMnFuNDJxczZjc3J0ZDRqayJ9.8MuB7KbV5kxKlJRZd5xsSw', {
+                          attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+                        }).addTo(map);
+                        const marker1 = new mapboxgl.Marker()
+                          .setLngLat([51.20235051967492, 4.405800326751025])
+                          .addTo(map.current);
+                      </script>
+
+                    </div>
+                  </div>
+                  <div class="row">
                     <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
                       <legend>
-                        <span class="fieldset-legend">Inhoud</span>
+                        <span class="fieldset-legend">Fysieke kenmerken</span>
                       </legend>
                       <div class="fieldset-wrapper">
 
                         <div
-                          class="field field--name-field-brief-description field--type-string-long field--label-hidden field__item">
-                          Fotografisch materiaal van de aanleg van een betonnen afdak in het vierde havendok te
-                          Antwerpen.</div>
+                          class="field field--name-field-object-dimensions field--type-string-long field--label-above">
+                          <div class="field__label">Afmetingen (cm)</div>
+                          <div class="field__item">31 * 23</div>
+                        </div>
 
                       </div>
                     </fieldset>
-                      
                     <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
                       <legend>
-                        <span class="fieldset-legend">Projectinformatie</span>
+                        <span class="fieldset-legend">Copyright</span>
                       </legend>
-                      <table  class="views-table views-view-table">
-                        <tr>
-                            <th id="view-title-table-column" class="views-field views-field-title" scope="col">Adres</th>
-                            <td>Kaaien 249-251-253 - vierde havendok</td>
-                        </tr>
-                        <tr>
-                            <th>Gemeente (referentie)</th>
-                            <td>Antwerpen (België > Vlaanderen > Provincie Antwerpen > Arrondissement Antwerpen > Antwerpen)</td>
-                        </tr>
-                        <tr>
-                            <th>Land</th>
-                            <td>België</td>
-                        </tr>
-                        <tr>
-                            <th>Type (referentie)</th>
-                            <td>Industrie en nijverheid</td>
-                        </tr>
-                        <tr>
-                            <th>Status</th>
-                            <td>Uitgevoerd</td>
-                        </tr>
-                        <tr>
-                            <th>Opdrachtgever(s)</th>
-                            <td>Havenbedrijf Stad Antwerpen</td>
-                        </tr>
-                        <tr>
-                            <th>Samenwerkingen</th>
-                            <td>Van Laere (aannemer)</td>
-                        </tr>
-                        <tr>
-                            <th>Beschrijving</th>
-                            <td>Afmetingen : 24 beuken elk van 15m overspanning en 67m lengte<br>
-                                Totale afmetingen : 360 m x 67<br>
-                                Termijn 12 maanden<br>
-                                Aannemingsbedrag : 22 000 000 F
-                            </td>
-                        </tr>
-                    </table>
-                      <br />
-                      <br />
-                  </fieldset>
-                  </div>
-                  <div class="cols--1 cols--lg--4 cols--xl--5" style="width: 50%; max-height: 100%;padding-bottom: 16px">
-                      <div id="map-object" class="map-object" style="height: 100%;"></div>
-    
-          <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    
-          <script src="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js"></script>
-           
-          <script>
-    
-            // Initialize the map
-            var map = L.map('map-object').setView([51.2213, 4.4051], 13);
-    
-            // Your Mapbox access token
-            var accessToken = 'pk.eyJ1IjoiYnB2YWkiLCJhIjoiY2x5enkwMzYzMjdxNTJtcXJmdTBocmYwbiJ9.nhaiiCS1Xh7CF-EK_rwYnQ';
-    
-            // Add the Mapbox tile layer
-            L.tileLayer('https://api.mapbox.com/styles/v1/bpvai/clyzxu2wh00gb01p68jpc7216/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiYnB2YWkiLCJhIjoiY2x5enhuZDBxMnFuNDJxczZjc3J0ZDRqayJ9.8MuB7KbV5kxKlJRZd5xsSw', {
-              attribution: '© <a href="https://www.mapbox.com/about/maps/">Mapbox</a> © <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-            }).addTo(map);
-            const marker1 = new mapboxgl.Marker()
-            .setLngLat([51.20235051967492, 4.405800326751025])
-            .addTo(map.current);
-          </script>
-    
-  </div>
-                  </div>                      <div class="row">
-                      <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
-                        <legend>
-                          <span class="fieldset-legend">Fysieke kenmerken</span>
-                        </legend>
-                        <div class="fieldset-wrapper">
+                      <div class="fieldset-wrapper">
 
-                          <div
-                            class="field field--name-field-object-dimensions field--type-string-long field--label-above">
-                            <div class="field__label">Afmetingen (cm)</div>
-                            <div class="field__item">31 * 23</div>
-                          </div>
-
+                        <div
+                          class="field field--name-field-copyright-credit-line field--type-string-long field--label-above">
+                          <div class="field__label">Creditline</div>
+                          <div class="field__item">Beeldarchief Van Laere, Collectie Vlaams Architectuurinstituut,
+                            copyright Frank Phillipi </div>
                         </div>
-                      </fieldset>
-                      <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
-                        <legend>
-                          <span class="fieldset-legend">Copyright</span>
-                        </legend>
-                        <div class="fieldset-wrapper">
 
-                          <div
-                            class="field field--name-field-copyright-credit-line field--type-string-long field--label-above">
-                            <div class="field__label">Creditline</div>
-                            <div class="field__item">Beeldarchief Van Laere, Collectie Vlaams Architectuurinstituut,
-                              copyright Frank Phillipi </div>
-                          </div>
+                      </div>
+                    </fieldset>
+                    <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
+                      <legend>
+                        <span class="fieldset-legend">Andere identificatiegegevens</span>
+                      </legend>
+                      <div class="fieldset-wrapper">
 
+                        <div class="field field--name-field-other-number field--type-string field--label-above">
+                          <div class="field__label">Ander nummer</div>
+                          <div class="field__item">8032 (oorspronkelijk nummer Van Laere)</div>
                         </div>
-                      </fieldset>
-                      <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
-                        <legend>
-                          <span class="fieldset-legend">Andere identificatiegegevens</span>
-                        </legend>
-                        <div class="fieldset-wrapper">
 
-                          <div class="field field--name-field-other-number field--type-string field--label-above">
-                            <div class="field__label">Ander nummer</div>
-                            <div class="field__item">8032 (oorspronkelijk nummer Van Laere)</div>
-                          </div>
-
-                        </div>
-                      </fieldset>
-                      <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
-                        <legend>
-                          <span class="fieldset-legend">Beelden</span>
-                        </legend>
-                        <div class="fieldset-wrapper">
-                          <div class="views-element-container">
-                              <header>
-                                81 Beeld(en)
-                              </header>
-                              <div style="display: flex;" class="pswp-gallery view-gallery-pictures" id="my-gallery">
-                                <div class="views-row">
-                                <a  href="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-007-b.jpg"
-                                  data-pswp-width="1735" data-pswp-height="1305" target="_blank">
-                                  <img
-                                    src="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-007-b.jpg"
-                                    alt="" width="480" height="360" />
-                                </a>
-                                </div>  
-                                <div class="views-row">
-                                <a href="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-009-b.jpg"
-                                  data-pswp-width="1735" data-pswp-height="1305" target="_blank">
-                                  <img
-                                    src="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-009-b.jpg"
-                                    alt="" width="480" height="360" />
-                                </a>
-                                </div>
-                                <div class="views-row">
-                                <a href="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-011-b.jpg"
-                                  data-pswp-width="1735" data-pswp-height="1305" target="_blank">
-                                  <img
-                                    src="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-011-b.jpg"
-                                    alt="" width="480" height="360" />
-                                </a>
-                                </div>
-                                <div class="views-row">
-                                <a href="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-007-b.jpg"
+                      </div>
+                    </fieldset>
+                    <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
+                      <legend>
+                        <span class="fieldset-legend">Beelden</span>
+                      </legend>
+                      <div class="fieldset-wrapper">
+                        <div class="views-element-container">
+                          <header>
+                            81 Beeld(en)
+                          </header>
+                          <div style="display: flex;" class="pswp-gallery view-gallery-pictures" id="my-gallery">
+                            <div class="views-row">
+                              <a href="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-007-b.jpg"
                                 data-pswp-width="1735" data-pswp-height="1305" target="_blank">
                                 <img
                                   src="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-007-b.jpg"
                                   alt="" width="480" height="360" />
                               </a>
-                              </div>
-                              <div class="views-row">
-                                
-                              <a href="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-003-b.jpg"
-                                data-pswp-width="1735" data-pswp-height="1305" target="_blank">
-                                <img
-                                  src="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-003-b.jpg"
-                                  alt="" width="480" height="360" />
-                              </a>
-                              </div>  
-                              <div class="views-row">
+                            </div>
+                            <div class="views-row">
                               <a href="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-009-b.jpg"
                                 data-pswp-width="1735" data-pswp-height="1305" target="_blank">
                                 <img
                                   src="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-009-b.jpg"
                                   alt="" width="480" height="360" />
                               </a>
-                              </div>
-                              </div>
+                            </div>
+                            <div class="views-row">
+                              <a href="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-011-b.jpg"
+                                data-pswp-width="1735" data-pswp-height="1305" target="_blank">
+                                <img
+                                  src="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-011-b.jpg"
+                                  alt="" width="480" height="360" />
+                              </a>
+                            </div>
+                            <div class="views-row">
+                              <a href="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-007-b.jpg"
+                                data-pswp-width="1735" data-pswp-height="1305" target="_blank">
+                                <img
+                                  src="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-007-b.jpg"
+                                  alt="" width="480" height="360" />
+                              </a>
+                            </div>
+                            <div class="views-row">
+                              <a href="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-003-b.jpg"
+                                data-pswp-width="1735" data-pswp-height="1305" target="_blank">
+                                <img
+                                  src="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-003-b.jpg"
+                                  alt="" width="480" height="360" />
+                              </a>
+                            </div>
+                            <div class="views-row">
+                              <a href="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-009-b.jpg"
+                                data-pswp-width="1735" data-pswp-height="1305" target="_blank">
+                                <img
+                                  src="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-009-b.jpg"
+                                  alt="" width="480" height="360" />
+                              </a>
+                            </div>
+                            <div class="views-row">
+                              <a href="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-007-b.jpg"
+                                data-pswp-width="1735" data-pswp-height="1305" target="_blank">
+                                <img
+                                  src="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-007-b.jpg"
+                                  alt="" width="480" height="360" />
+                              </a>
+                            </div>
+                            <div class="views-row">
+                              <a href="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-003-b.jpg"
+                                data-pswp-width="1735" data-pswp-height="1305" target="_blank">
+                                <img
+                                  src="https://collectie.vai.be/sites/default/files/pictures/obj-0004001-0189-vla-img-003-b.jpg"
+                                  alt="" width="480" height="360" />
+                              </a>
+                            </div>
                           </div>
                         </div>
-                    </div>
-                    </div>
-
-
-                    <nav class="pager" role="navigation" aria-labelledby="pagination-heading">
-                      <h4 id="pagination-heading" class="visually-hidden">Paginering</h4>
-                      <ul class="pager__items js-pager__items">
-                        <li class="pager__item is-active">
-                          <a href="?page=0" title="Huidige pagina" aria-current="page">
-                            <span class="visually-hidden">
-                              Huidige pagina
-                            </span>1</a>
-                        </li>
-                        <li class="pager__item">
-                          <a href="?page=1" title="Go to page 2">
-                            <span class="visually-hidden">
-                              Pagina
-                            </span>2</a>
-                        </li>
-                        <li class="pager__item">
-                          <a href="?page=2" title="Go to page 3">
-                            <span class="visually-hidden">
-                              Pagina
-                            </span>3</a>
-                        </li>
-                        <li class="pager__item">
-                          <a href="?page=3" title="Go to page 4">
-                            <span class="visually-hidden">
-                              Pagina
-                            </span>4</a>
-                        </li>
-                        <li class="pager__item">
-                          <a href="?page=4" title="Go to page 5">
-                            <span class="visually-hidden">
-                              Pagina
-                            </span>5</a>
-                        </li>
-                        <li class="pager__item">
-                          <a href="?page=5" title="Go to page 6">
-                            <span class="visually-hidden">
-                              Pagina
-                            </span>6</a>
-                        </li>
-                        <li class="pager__item">
-                          <a href="?page=6" title="Go to page 7">
-                            <span class="visually-hidden">
-                              Pagina
-                            </span>7</a>
-                        </li>
-                        <li class="pager__item">
-                          <a href="?page=7" title="Go to page 8">
-                            <span class="visually-hidden">
-                              Pagina
-                            </span>8</a>
-                        </li>
-                        <li class="pager__item">
-                          <a href="?page=8" title="Go to page 9">
-                            <span class="visually-hidden">
-                              Pagina
-                            </span>9</a>
-                        </li>
-                        <li class="pager__item pager__item--ellipsis" role="presentation">…</li>
-                        <li class="pager__item pager__item--next">
-                          <a href="?page=1" title="Ga naar volgende pagina" rel="next">
-                            <span class="visually-hidden">Volgende pagina</span>
-                            <span aria-hidden="true">›</span>
-                          </a>
-                        </li>
-                        <li class="pager__item pager__item--last">
-                          <a href="?page=10" title="Ga naar laatste pagina">
-                            <span class="visually-hidden">Laatste pagina</span>
-                            <span aria-hidden="true">»</span>
-                          </a>
-                        </li>
-                      </ul>
-                    </nav>
-
-
-
-
-
-
-                </div>
+                      </div>
+                  </div>
               </div>
 
-            </div>
-            </fieldset>
 
+              <nav class="pager" role="navigation" aria-labelledby="pagination-heading">
+                <h4 id="pagination-heading" class="visually-hidden">Paginering</h4>
+                <ul class="pager__items js-pager__items">
+                  <li class="pager__item is-active">
+                    <a href="?page=0" title="Huidige pagina" aria-current="page">
+                      <span class="visually-hidden">
+                        Huidige pagina
+                      </span>1</a>
+                  </li>
+                  <li class="pager__item">
+                    <a href="?page=1" title="Go to page 2">
+                      <span class="visually-hidden">
+                        Pagina
+                      </span>2</a>
+                  </li>
+                  <li class="pager__item">
+                    <a href="?page=2" title="Go to page 3">
+                      <span class="visually-hidden">
+                        Pagina
+                      </span>3</a>
+                  </li>
+                  <li class="pager__item">
+                    <a href="?page=3" title="Go to page 4">
+                      <span class="visually-hidden">
+                        Pagina
+                      </span>4</a>
+                  </li>
+                  <li class="pager__item">
+                    <a href="?page=4" title="Go to page 5">
+                      <span class="visually-hidden">
+                        Pagina
+                      </span>5</a>
+                  </li>
+                  <li class="pager__item">
+                    <a href="?page=5" title="Go to page 6">
+                      <span class="visually-hidden">
+                        Pagina
+                      </span>6</a>
+                  </li>
+                  <li class="pager__item">
+                    <a href="?page=6" title="Go to page 7">
+                      <span class="visually-hidden">
+                        Pagina
+                      </span>7</a>
+                  </li>
+                  <li class="pager__item">
+                    <a href="?page=7" title="Go to page 8">
+                      <span class="visually-hidden">
+                        Pagina
+                      </span>8</a>
+                  </li>
+                  <li class="pager__item">
+                    <a href="?page=8" title="Go to page 9">
+                      <span class="visually-hidden">
+                        Pagina
+                      </span>9</a>
+                  </li>
+                  <li class="pager__item pager__item--ellipsis" role="presentation">…</li>
+                  <li class="pager__item pager__item--next">
+                    <a href="?page=1" title="Ga naar volgende pagina" rel="next">
+                      <span class="visually-hidden">Volgende pagina</span>
+                      <span aria-hidden="true">›</span>
+                    </a>
+                  </li>
+                  <li class="pager__item pager__item--last">
+                    <a href="?page=10" title="Ga naar laatste pagina">
+                      <span class="visually-hidden">Laatste pagina</span>
+                      <span aria-hidden="true">»</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+
+
+
+
+
+
+            </div>
           </div>
 
-          </article>
-
         </div>
-
+        </fieldset>
 
       </div>
 
+      </article>
+
     </div>
+
+
+  </div>
+
+  </div>
   </div>
   </div>
   </div>
