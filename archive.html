@@ -1,0 +1,1302 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+    integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+
+  <link href="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.css" rel="stylesheet">
+</head>
+
+<body class="not-front type-archive not-logged-in" data-once="form-single-submit detailsAria">
+
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P7TMXFG" height="0" width="0"
+      style="display:none;visibility:hidden"></iframe></noscript>
+  <div class="dialog-off-canvas-main-canvas" data-off-canvas-main-canvas="">
+    <div id="site-wrapper">
+
+      <header class="region region--header clearfix" data-once="corecrewActionLinksToggle" style="height: 124px;position:relative;">
+
+        <div class="region--header-inner region-inner">
+        <div class="branding">
+  <a href="/" title="Home" rel="home" style="display:block;width:177px;height:92px;background:transparent url(/themes/custom/coretheme/logo.png) no-repeat 50% 50% / contain;text-indent:-9999px;">
+        <span class="site-name">VAi Archiefhub</span>
+          </a>
+</div>
+<div id="block-coretheme-primary-local-tasks" class="block block-core block-local-tasks-block hidden">
+  
+    
+        <nav class="tabs" role="navigation" aria-label="Tabs">
+        <h2 class="visually-hidden">Primaire tabs</h2>
+  <ul class="tabs primary"><li class="is-active"><a href="/archive/5520" data-drupal-link-system-path="archive/5520" class="is-active" aria-current="page">Weergeven</a></li>
+<li><a href="/archive/5520/edit" data-drupal-link-system-path="archive/5520/edit">Bewerken</a></li>
+</ul>
+
+    </nav>
+  </div>
+<nav role="navigation" aria-labelledby="block-hoofdnavigatie-menu" id="block-hoofdnavigatie" class="block block-menu navigation menu--hoofd-navigatie">
+      
+  <h2 id="block-hoofdnavigatie-menu" data-once="mobileMenu"><span>Menu</span></h2>
+  
+
+        
+              <ul class="menu">
+                    <li class="menu-item">
+        <a href="https://collectie.vai.be/over/over">Over</a>
+              </li>
+                <li class="menu-item">
+        <a href="/bibliotheek" data-drupal-link-system-path="node/42857">Bibliotheek</a>
+              </li>
+                <li class="menu-item">
+        <a href="/zoeken?f%5B0%5D=beschrijvingsniveau%3A1" data-drupal-link-query="{&quot;f&quot;:[&quot;beschrijvingsniveau:1&quot;]}" data-drupal-link-system-path="zoeken">Archievenoverzicht</a>
+              </li>
+        </ul>
+  
+
+
+  </nav>
+<div class="views-exposed-form bef-exposed-form block block-views block-views-exposed-filter-blocksearch-page-1" data-drupal-selector="views-exposed-form-search-page-1" id="block-zichtbaarformuliersearchpage-1-4">
+  
+    
+      <form action="/zoeken" method="get" id="views-exposed-form-search-page-1" accept-charset="UTF-8" data-once="form-updated" data-drupal-form-fields="edit-search-api-fulltext,edit-title">
+  <div class="form--inline clearfix">
+  <div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-search-api-fulltext form-item-search-api-fulltext">
+      <label for="edit-search-api-fulltext">Zoek in de databank</label>
+        <input data-drupal-selector="edit-search-api-fulltext" type="text" id="edit-search-api-fulltext" name="search_api_fulltext" value="" size="30" maxlength="128" class="form-text">
+
+        </div>
+<div class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-title form-item-title">
+      <label for="edit-title">Zoek op titel / naam</label>
+        <input data-drupal-selector="edit-title" type="text" id="edit-title" name="title" value="" size="30" maxlength="128" class="form-text">
+
+        </div>
+<div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper" id="edit-actions"><input data-drupal-selector="edit-submit-search" type="submit" id="edit-submit-search" value="Zoeken" class="button js-form-submit form-submit">
+</div>
+
+</div>
+
+</form>
+
+  </div>
+
+
+              <div class="web-title"><h2><span>Archiefhub</span></h2></div>
+          </div>
+    
+        <div class="region--header-mobile-inner region-inner">
+        <div class="branding">
+  <a href="/" title="Home" rel="home" style="display:block;width:177px;height:92px;background:transparent url(/themes/custom/coretheme/logo.png) no-repeat 50% 50% / contain;text-indent:-9999px;">
+        <span class="site-name">VAi Archiefhub</span>
+          </a>
+</div>
+
+
+    </div>
+    
+  </header>
+
+      <div class="region region--highlighted clearfix">
+
+        <div class="region--highlighted-inner region-inner">
+          <div id="block-breadcrumbblock-2" class="block block-general block-breadcrumb-block">
+
+
+            <ul>
+            </ul>
+
+          </div>
+          <div id="block-pagetitle" class="block block-core block-page-title-block">
+
+
+
+            <h1 class="page-title">Beeldarchief van bouwbedrijf Van Laere</h1>
+
+
+          </div>
+          <div data-drupal-messages-fallback="" class="hidden"></div>
+
+
+        </div>
+
+      </div>
+      <div class="">
+
+
+</div>
+      <div class="region region--content clearfix">
+        <div class="region--content-inner region-inner">
+          <div class="container">
+            <div class="row">
+              <div class="region--content-mid-inner 
+                          ">
+                <div id="block-mainpagecontent" class="block block-system block-system-main-block">
+
+
+
+                  <article class="node node--type-archive node--view-mode-full">
+
+
+                    <div class="node__content">
+                      <div class="cols--1 cols--md--1
+                      cols--lg--4 colspan--lg--3 cols--xl--5 colspan--xl--4 sidebar-right">
+                      <fieldset class="row js-form-item form-item js-form-wrapper form-wrapper">
+                        <legend>
+                          <span class="fieldset-legend">Identificatie</span>
+                        </legend>
+                        <div class="fieldset-wrapper">
+
+                          <div class="cols--1 cols--lg--2">
+
+                            <div class="flex field field--name-field-reference-code field--type-string field--label-above">
+                            <svg xmlns="http://www.w3.org/2000/svg"  width="24" height="24" viewBox="0 5 60 50">
+                              <path d="M 7 2 L 7 48 L 43 48 L 43 14.59375 L 42.71875 14.28125 L 30.71875 2.28125 L 30.40625 2 Z M 9 4 L 29 4 L 29 16 L 41 16 L 41 46 L 9 46 Z M 31 5.4375 L 39.5625 14 L 31 14 Z M 15 22 L 15 24 L 35 24 L 35 22 Z M 15 28 L 15 30 L 31 30 L 31 28 Z M 15 34 L 15 36 L 35 36 L 35 34 Z"></path>
+                              </svg>
+                              <div class="flex">
+                              <div class="field__label">Referentienummer</div>
+                              
+                              <div class="field__item">BE/653717/0189-VLA</div>
+                              </div>
+                            </div>
+
+                            <div class="flex field field--name-field-name field--type-string field--label-above">
+                             
+                              <svg width="24" height="24" viewBox="0 3 26 24"> fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12ZM12 14C9.33 14 4 15.34 4 18V20H20V18C20 15.34 14.67 14 12 14Z"  fill="#000" 
+                                <!-- stroke="#000" stroke-width="0.5" -->
+                                />
+                            </svg>
+                            <div class="flex">
+                              <div class="field__label">Naam</div>
+                              <div class="field__item">Beeldarchief van bouwbedrijf Van Laere</div>
+                              </div>
+                            </div>
+
+                            <div class="flex field field--name-field-start-year field--type-string field--label-above">
+                              <!-- <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M7 10H9V12H7V10ZM11 10H13V12H11V10ZM15 10H17V12H15V10ZM19 4H18V2H16V4H8V2H6V4H5C3.9 4 3.01 4.9 3.01 6L3 20C3 21.1 3.9 22 5 22H19C20.1 22 21 21.1 21 20V6C21 4.9 20.1 4 19 4ZM19 20H5V9H19V20Z" fill="none" stroke="#000" stroke-width="0.5"/> -->
+                                <svg style="height: 24px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 150"><path d="M113.854 22.323h-9.667v-2.677a7.25 7.25 0 0 0-14.5 0v2.677H38.313v-2.677a7.25 7.25 0 0 0-14.5 0v2.677h-9.667a1.75 1.75 0 0 0-1.75 1.75v89.781a1.751 1.751 0 0 0 1.75 1.75h99.708a1.751 1.751 0 0 0 1.75-1.75V24.073a1.75 1.75 0 0 0-1.75-1.75zm-20.667-2.677a3.75 3.75 0 0 1 7.5 0V28.5a3.75 3.75 0 0 1-7.5 0zm-65.874 0a3.75 3.75 0 0 1 7.5 0V28.5a3.75 3.75 0 0 1-7.5 0zm-3.5 6.177V28.5a7.25 7.25 0 0 0 14.5 0v-2.677h51.374V28.5a7.25 7.25 0 0 0 14.5 0v-2.677h7.913V44.2H15.9V25.823zM15.9 112.1V47.7h96.2v64.4z"/><path d="M40.2 56h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V57.75A1.749 1.749 0 0 0 40.2 56zm-1.75 8.719h-5.221V59.5h5.218zM58.972 56h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V57.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V59.5h5.219zM77.747 56h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V57.75a1.749 1.749 0 0 0-1.75-1.75zM76 64.719h-5.222V59.5H76zM96.521 56H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V57.75A1.749 1.749 0 0 0 96.521 56zm-1.75 8.719h-5.218V59.5h5.218zM40.2 74h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V75.75A1.749 1.749 0 0 0 40.2 74zm-1.75 8.719h-5.221V77.5h5.218zM58.972 74h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V75.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V77.5h5.219zM77.747 74h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V75.75a1.749 1.749 0 0 0-1.75-1.75zM76 82.719h-5.222V77.5H76zM96.521 74H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V75.75A1.749 1.749 0 0 0 96.521 74zm-1.75 8.719h-5.218V77.5h5.218zM40.2 92h-8.721a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75H40.2a1.749 1.749 0 0 0 1.75-1.75V93.75A1.749 1.749 0 0 0 40.2 92zm-1.75 8.719h-5.221V95.5h5.218zM58.972 92h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.75 1.75 0 0 0 1.75-1.75V93.75a1.75 1.75 0 0 0-1.75-1.75zm-1.75 8.719H52V95.5h5.219zM77.747 92h-8.719a1.75 1.75 0 0 0-1.75 1.75v8.719a1.75 1.75 0 0 0 1.75 1.75h8.719a1.749 1.749 0 0 0 1.75-1.75V93.75a1.749 1.749 0 0 0-1.75-1.75zM76 100.719h-5.222V95.5H76zM96.521 92H87.8a1.749 1.749 0 0 0-1.75 1.75v8.719a1.749 1.749 0 0 0 1.75 1.75h8.718a1.749 1.749 0 0 0 1.75-1.75V93.75A1.749 1.749 0 0 0 96.521 92zm-1.75 8.719h-5.218V95.5h5.218z"/></svg>
+                            </svg>
+                              <div class="flex">
+                              <div class="field__label">Periode</div>
+                              <div class="field__item">1948 - 2000</div>
+                              </div>
+                            </div>
+
+                            <div
+                              class="flex field field--name-field-extent-medium field--type-string-long field--label-above">
+                              <svg width="24" height="24" viewBox="0 1 26 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M20 4H4C2.9 4 2 4.9 2 6V10H4V6H20V10H22V6C22 4.9 21.1 4 20 4ZM2 14V18C2 19.1 2.9 20 4 20H20C21.1 20 22 19.1 22 18V14H20V18H4V14H2ZM8 12H16V14H8V12Z" fill="#000"/>
+                            </svg>
+                            <div class="flex">
+                              <div class="field__label">Omvang</div>
+                              <div class="field__item">50 fotomappen, 120 fotoalbums, 4 lades met hangmappen (35 fd's)
+                              </div>
+                              </div>
+                            </div>
+
+                          </div>
+
+                        </div>
+                      </fieldset>
+                    
+                      <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
+                        <legend>
+                          <span class="fieldset-legend">Inhoud</span>
+                        </legend>
+                        <div class="fieldset-wrapper">
+
+                          <div
+                            class="field field--name-field-content-remarks field--type-string-long field--label-hidden field__item">
+                            Het archief bevat ongeveer 50 fotomappen, 120 fotoalbums en hangmappen die de meer recente
+                            foto's bevatten.<br>
+                            <br>
+                            De foto's werden gemaakt in opdracht van het bouwbedrijf Van Laere. De foto's documenteren
+                            de werven, bouwprojecten en officiële evenementen waarbij het bedrijf betrokken is geweest.
+                            De foto's bieden tevens beeldmateriaal van historisch belangrijke werven van bouwprojecten
+                            van Renaat Braem of Jozef Smolderen.
+                          </div>
+
+                        </div>
+                      </fieldset>
+
+                      <div class="views-element-container">
+                        <div
+                          class="view view-eva view-geomap-projects view-id-geomap_projects view-display-id-entity_view_1 js-view-dom-id-f438e3625fb706b9735b156d521576ef37d4f8097d2a9aa9b72cf8070c58ffe5"
+                          data-once="ajax-pager">
+
+
+                        </div>
+                      </div>
+                      <div class="l-flex" >
+                      <div id="map-archive" class="map-archive" style="width: 100%;"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+
+<script src="https://api.mapbox.com/mapbox-gl-js/v3.5.1/mapbox-gl.js"></script>
+
+<script>
+
+// Initialize the map
+// var map = L.map('map-archive').setView([51.2213, 4.4051], 13);
+
+// Your Mapbox access token
+
+mapboxgl.accessToken = 'pk.eyJ1IjoiYnB2YWkiLCJhIjoiY2x5enkwMzYzMjdxNTJtcXJmdTBocmYwbiJ9.nhaiiCS1Xh7CF-EK_rwYnQ';
+
+// // Add the Mapbox tile layer
+// L.tileLayer('https://api.mapbox.com/styles/v1/bpvai/clyzxu2wh00gb01p68jpc7216/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoiYnB2YWkiLCJhIjoiY2x5enhuZDBxMnFuNDJxczZjc3J0ZDRqayJ9.8MuB7KbV5kxKlJRZd5xsSw', {
+
+// }).addTo(map);
+
+const map = new mapboxgl.Map({
+        container: 'map-archive',
+        // Choose from Mapbox's core styles, or make your own style with Mapbox Studio
+        style: 'mapbox://styles/bpvai/clyzxu2wh00gb01p68jpc7216',
+        center:[4.410750, 51.212442],
+        zoom: 13
+    });
+
+    const geojson = {
+  type: 'FeatureCollection',
+  features: [
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [4.4, 51.2]
+      },
+      properties: {
+        title: 'Fotoalbum betreffende de bouw van twee vliegtuihangars te Bevekom ',
+        description: 'Uit archief Beeldarchief van bouwbedrijf Van Laere'
+      }
+    },
+    {
+      type: 'Feature',
+      geometry: {
+        type: 'Point',
+        coordinates: [4.405800326751025, 51.20235051967492]
+      },
+      properties: {
+        title: 'Fotoalbum betreffende de bouw van twee vliegtuihangars te Bevekom ',
+        description: 'Uit archief Beeldarchief van bouwbedrijf Van Laere'
+      }
+    }
+  ]
+};
+
+// add markers to map
+for (const feature of geojson.features) {
+  
+ // create a HTML element for each feature
+const el = document.createElement('div');
+el.className = 'marker';
+
+  // make a marker for each feature and add to the map
+  new mapboxgl.Marker().setLngLat(feature.geometry.coordinates).addTo(map);  
+  
+  
+  new mapboxgl.Marker(el)
+  .setLngLat(feature.geometry.coordinates)
+  .setPopup(
+    new mapboxgl.Popup({ offset: 25 }) // add popups
+      .setHTML(
+        `<h3>${feature.properties.title}</h3><p>${feature.properties.description}</p>`
+      )
+  )
+  .addTo(map);
+}
+
+const el = document.createElement('div');
+el.className = 'marker';
+
+new mapboxgl.Marker(el).setLngLat(feature.geometry.coordinates).addTo(map);
+// const marker1 = new mapboxgl.Marker()
+//             .setLngLat([4.405800326751025, 51.20235051967492])
+//             .addTo(map);
+</script>
+<!-- <div class="">
+<div class="slider-container">
+  <h3>Jaar: </h3>
+  <label for="rangeMin"><span id="minYear">2000</span> - <span id="maxYear">2020</span></label>
+  
+  <div class="slider">
+    <input type="range" id="rangeMin" min="1900" max="2024" value="2000">
+    <input type="range" id="rangeMax" min="1900" max="2024" value="2020">
+    <div class="slider-track"></div>
+  </div>
+</div>
+<form class="filter">
+  <h3>Gebouwtype</h3>
+  
+  <label for="infrastructuur">
+    <input type="checkbox" id="infrastructuur" name="filter" value="Infrastructuur">
+    Infrastructuur
+  </label><br>
+  
+  <label for="sociaal-maatschappelijk">
+    <input type="checkbox" id="sociaal-maatschappelijk" name="filter" value="Sociaal-maatschappelijk">
+    Sociaal-maatschappelijk
+  </label><br>
+</form>
+<form class="filter">
+  <h3>Type</h3>
+  
+  <label for="archief">
+    <input type="checkbox" id="archief" name="filter" value="Archief">
+    Archief
+  </label><br>
+  
+</form>
+</div> -->
+
+</div>
+                      <details class="js-form-wrapper form-wrapper" data-once="details">
+                        <summary role="button" aria-expanded="false">Meer info<span class="summary"></span></summary>
+                        <div class="details-wrapper">
+                          <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
+                            <legend>
+                              <span class="fieldset-legend">Ordening</span>
+                            </legend>
+                            <div class="fieldset-wrapper">
+
+                              <div
+                                class="field field--name-field-system-arrangement field--type-string-long field--label-hidden field__item">
+                                De foto's zijn heel goed geordend. In de meeste gevallen kunnen ze worden teruggebracht
+                                tot een specifiek bouwproject of evenement.</div>
+
+                            </div>
+                          </fieldset>
+                          <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
+                            <legend>
+                              <span class="fieldset-legend">Raadpleegbaarheid en gebruik</span>
+                            </legend>
+                            <div class="fieldset-wrapper">
+
+                              <div
+                                class="field field--name-field-finding-aid field--type-string-long field--label-above">
+                                <div class="field__label">Toegangen</div>
+                                <div class="field__item">Er is nog geen toegang. De ontsluiting van het archief in de
+                                  archiefdatabank van het Vlaams Architectuurinstituut is gaande.</div>
+                              </div>
+
+                              <div
+                                class="field field--name-field-reproduction-conditions field--type-string-long field--label-above">
+                                <div class="field__label">Reproductie</div>
+                                <div class="field__item">Voor de reproductie en het gebruik van archiefstukken gelden de
+                                  voorwaarden en tarieven van het Vlaams Architectuurinstituut. Zie hiervoor het
+                                  leeszaalreglement.</div>
+                              </div>
+
+                              <div
+                                class="field field--name-field-physical-access-conditions field--type-string-long field--label-above">
+                                <div class="field__label">Fysieke toegankelijkheid</div>
+                                <div class="field__item">Het archief is toegankelijk.</div>
+                              </div>
+
+                            </div>
+                          </fieldset>
+
+                          <div
+                            class="field field--name-field-archival-history field--type-string-long field--label-above">
+                            <div class="field__label">Beheergeschiedenis</div>
+                            <div class="field__item">Het archief is sinds 2019 een permanente bewaargeving van Van Laere
+                              aan het Vlaams Architectuurinstituut.</div>
+                          </div>
+
+                          <div
+                            class="field field--name-field-archivist-note field--type-string-long field--label-above">
+                            <div class="field__label">Archiefverwerking door</div>
+                            <div class="field__item">-Archiefbeschrijving, 2019<br>
+                              -Detailregistratie in databank, 2019</div>
+                          </div>
+                          <fieldset class="js-form-item form-item js-form-wrapper form-wrapper">
+                            <legend>
+                              <span class="fieldset-legend">Andere identificatiegegevens</span>
+                            </legend>
+                            <div class="fieldset-wrapper">
+
+                              <div class="field field--name-field-date-text field--type-string field--label-above">
+                                <div class="field__label">Andere datum</div>
+                                <div class="field__item">Datum naar schatting</div>
+                              </div>
+
+                            </div>
+                          </fieldset>
+                        </div>
+                      </details>
+                      <div id="block-childrenblock-2" class="block block-general block-children-block">
+
+                        <h2>Onderliggende beschrijvingen</h2>
+                      
+                        <ul>
+                          <li>
+                            <a href="/archive/5636">Reeks fotoalbums van Van Laere</a>
+                          </li>
+                          <li>
+                            <a href="/archive/5638">Reeks hangmappen met beeldmateriaal van Van Laere</a>
+                          </li>
+                          <li>
+                            <a href="/archive/5639">Los beeldmateriaal van Van Laere</a>
+                          </li>
+                          <li>
+                            <a href="/archive/5637">Reeks fotodozen van Van Laere</a>
+                          </li>
+                        </ul>
+                      
+                      </div>
+                      <div class="views-element-container block block-views block-views-blockblader-door-dit-archief-block-1"
+                      id="block-views-block-blader-door-dit-archief-block-1">
+                      
+                      <h2>Blader door dit archief</h2>
+                      
+                      <div>
+                        <div
+                          class="view view-blader-door-dit-archief view-id-blader_door_dit_archief view-display-id-block_1 js-view-dom-id-74689ea92049f6b6fff49c48462094e7b998940909f804572b67b23c962a006f"
+                          data-once="ajax-pager">
+                      
+                      
+                          <div class="view-filters">
+                            <form class="views-exposed-form bef-exposed-form"
+                              data-drupal-selector="views-exposed-form-blader-door-dit-archief-block-1"
+                              action="/archive/5520" method="get" id="views-exposed-form-blader-door-dit-archief-block-1"
+                              accept-charset="UTF-8" data-once="form-updated exposed-form"
+                              data-drupal-form-fields="edit-search-api-fulltext--2,edit-items-per-page">
+                              <div class="form--inline clearfix">
+                                <div
+                                  class="js-form-item form-item js-form-type-textfield form-type-textfield js-form-item-search-api-fulltext form-item-search-api-fulltext">
+                                  <label for="edit-search-api-fulltext--2">Zoeken</label>
+                                  <input data-drupal-selector="edit-search-api-fulltext" type="text"
+                                    id="edit-search-api-fulltext--2" name="search_api_fulltext" value="" size="30"
+                                    maxlength="128" class="form-text">
+                      
+                                </div>
+                                <div
+                                  class="js-form-item form-item js-form-type-select form-type-select js-form-item-items-per-page form-item-items-per-page">
+                                  <label for="edit-items-per-page">Items per pagina</label>
+                                  <div class="select"><select data-drupal-selector="edit-items-per-page"
+                                      id="edit-items-per-page" name="items_per_page" class="form-select"
+                                      data-once="wrapSelect">
+                                      <option value="5">5</option>
+                                      <option value="10" selected="selected">10</option>
+                                      <option value="25">25</option>
+                                      <option value="50">50</option>
+                                    </select></div>
+                                </div>
+                                <div data-drupal-selector="edit-actions" class="form-actions js-form-wrapper form-wrapper"
+                                  id="edit-actions--2"><input data-drupal-selector="edit-submit-blader-door-dit-archief"
+                                    type="submit" id="edit-submit-blader-door-dit-archief" value="Zoeken"
+                                    class="button js-form-submit form-submit">
+                                </div>
+                      
+                              </div>
+                      
+                            </form>
+                      
+                          </div>
+                      
+                          <div class="view-content">
+                            <table class="views-table views-view-table cols-6">
+                              <thead>
+                                <tr>
+                                  <th id="view-title-table-column" class="views-field views-field-title" scope="col">Titel
+                                  </th>
+                                  <th id="view-type-table-column" class="views-field views-field-type" scope="col">Type</th>
+                                  <th id="view-field-start-year-table-column"
+                                    class="views-field views-field-field-start-year" scope="col"><a
+                                      href="?search_api_fulltext=&amp;items_per_page=10&amp;order=field_start_year&amp;sort=asc"
+                                      title="op Begindatum sorteren" rel="nofollow">Begindatum</a></th>
+                                  <th id="view-field-end-year-table-column" class="views-field views-field-field-end-year"
+                                    scope="col"><a
+                                      href="?search_api_fulltext=&amp;items_per_page=10&amp;order=field_end_year&amp;sort=asc"
+                                      title="op Einddatum sorteren" rel="nofollow">Einddatum</a></th>
+                                  <th id="view-name-table-column" class="views-field views-field-name" scope="col"><a
+                                      href="?search_api_fulltext=&amp;items_per_page=10&amp;order=name&amp;sort=asc"
+                                      title="op Gemeente sorteren" rel="nofollow">Gemeente</a></th>
+                                  <th id="view-field-thesaurus-project-type-table-column"
+                                    class="views-field views-field-field-thesaurus-project-type" scope="col">Gebouwtype</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td headers="view-title-table-column" class="views-field views-field-title"><a
+                                      href="/node/73840"><strong>BE/653717/0189-VLA/0001</strong> - Reeks fotoalbums van Van
+                                      Laere</a> </td>
+                                  <td headers="view-type-table-column" class="views-field views-field-type">Archief
+                                    (Bestanddeel) </td>
+                                  <td headers="view-field-start-year-table-column"
+                                    class="views-field views-field-field-start-year"> </td>
+                                  <td headers="view-field-end-year-table-column"
+                                    class="views-field views-field-field-end-year"> </td>
+                                  <td headers="view-name-table-column" class="views-field views-field-name"> </td>
+                                  <td headers="view-field-thesaurus-project-type-table-column"
+                                    class="views-field views-field-field-thesaurus-project-type"> </td>
+                                </tr>
+                                <tr>
+                                  <td headers="view-title-table-column" class="views-field views-field-title"><a
+                                      href="/node/81805"><strong>BE/653717/0189-VLA/0002</strong> - Reeks fotodozen van Van
+                                      Laere</a> </td>
+                                  <td headers="view-type-table-column" class="views-field views-field-type">Archief
+                                    (Bestanddeel) </td>
+                                  <td headers="view-field-start-year-table-column"
+                                    class="views-field views-field-field-start-year"> </td>
+                                  <td headers="view-field-end-year-table-column"
+                                    class="views-field views-field-field-end-year"> </td>
+                                  <td headers="view-name-table-column" class="views-field views-field-name"> </td>
+                                  <td headers="view-field-thesaurus-project-type-table-column"
+                                    class="views-field views-field-field-thesaurus-project-type"> </td>
+                                </tr>
+                                <tr>
+                                  <td headers="view-title-table-column" class="views-field views-field-title"><a
+                                      href="/node/73842"><strong>BE/653717/0189-VLA/0003</strong> - Reeks hangmappen met
+                                      beeldmateriaal van Van Laere</a> </td>
+                                  <td headers="view-type-table-column" class="views-field views-field-type">Archief
+                                    (Bestanddeel) </td>
+                                  <td headers="view-field-start-year-table-column"
+                                    class="views-field views-field-field-start-year"> </td>
+                                  <td headers="view-field-end-year-table-column"
+                                    class="views-field views-field-field-end-year"> </td>
+                                  <td headers="view-name-table-column" class="views-field views-field-name"> </td>
+                                  <td headers="view-field-thesaurus-project-type-table-column"
+                                    class="views-field views-field-field-thesaurus-project-type"> </td>
+                                </tr>
+                                <tr>
+                                  <td headers="view-title-table-column" class="views-field views-field-title"><a
+                                      href="/node/73843"><strong>BE/653717/0189-VLA/0004</strong> - Los beeldmateriaal van
+                                      Van Laere</a> </td>
+                                  <td headers="view-type-table-column" class="views-field views-field-type">Archief
+                                    (Bestanddeel) </td>
+                                  <td headers="view-field-start-year-table-column"
+                                    class="views-field views-field-field-start-year"> </td>
+                                  <td headers="view-field-end-year-table-column"
+                                    class="views-field views-field-field-end-year"> </td>
+                                  <td headers="view-name-table-column" class="views-field views-field-name"> </td>
+                                  <td headers="view-field-thesaurus-project-type-table-column"
+                                    class="views-field views-field-field-thesaurus-project-type"> </td>
+                                </tr>
+                                <tr>
+                                  <td headers="view-title-table-column" class="views-field views-field-title"><a
+                                      href="/node/73844"><strong>BE/653717/0189-VLA/0005</strong> - Beeldmateriaal
+                                      betreffende een waterzuiveringsstation te Tielt</a> </td>
+                                  <td headers="view-type-table-column" class="views-field views-field-type">Archief
+                                    (Bestanddeel) </td>
+                                  <td headers="view-field-start-year-table-column"
+                                    class="views-field views-field-field-start-year"> </td>
+                                  <td headers="view-field-end-year-table-column"
+                                    class="views-field views-field-field-end-year"> </td>
+                                  <td headers="view-name-table-column" class="views-field views-field-name">Tielt (België
+                                    &gt; Vlaanderen &gt; West-Vlaanderen &gt; Arrondissement Tielt &gt; Tielt) </td>
+                                  <td headers="view-field-thesaurus-project-type-table-column"
+                                    class="views-field views-field-field-thesaurus-project-type">Infrastructuur </td>
+                                </tr>
+                                <tr>
+                                  <td headers="view-title-table-column" class="views-field views-field-title"><a
+                                      href="/node/73845"><strong>BE/653717/0189-VLA/0006</strong> - Beeldmateriaal
+                                      betreffende een de bouw van bruggen te Zandvliet, Antwerpen</a> </td>
+                                  <td headers="view-type-table-column" class="views-field views-field-type">Archief
+                                    (Bestanddeel) </td>
+                                  <td headers="view-field-start-year-table-column"
+                                    class="views-field views-field-field-start-year">1992 </td>
+                                  <td headers="view-field-end-year-table-column"
+                                    class="views-field views-field-field-end-year">1994 </td>
+                                  <td headers="view-name-table-column" class="views-field views-field-name">Antwerpen
+                                    (België &gt; Vlaanderen &gt; Provincie Antwerpen &gt; Arrondissement Antwerpen &gt;
+                                    Antwerpen) </td>
+                                  <td headers="view-field-thesaurus-project-type-table-column"
+                                    class="views-field views-field-field-thesaurus-project-type">Infrastructuur </td>
+                                </tr>
+                                <tr>
+                                  <td headers="view-title-table-column" class="views-field views-field-title"><a
+                                      href="/node/73846"><strong>BE/653717/0189-VLA/0007</strong> - Stukken betreffende een
+                                      parking te Kortrijk</a> </td>
+                                  <td headers="view-type-table-column" class="views-field views-field-type">Archief
+                                    (Bestanddeel) </td>
+                                  <td headers="view-field-start-year-table-column"
+                                    class="views-field views-field-field-start-year">1994 </td>
+                                  <td headers="view-field-end-year-table-column"
+                                    class="views-field views-field-field-end-year">1994 </td>
+                                  <td headers="view-name-table-column" class="views-field views-field-name">Kortrijk (België
+                                    &gt; Vlaanderen &gt; West-Vlaanderen &gt; Arrondissement Kortrijk &gt; Kortrijk) </td>
+                                  <td headers="view-field-thesaurus-project-type-table-column"
+                                    class="views-field views-field-field-thesaurus-project-type">Infrastructuur </td>
+                                </tr>
+                                <tr>
+                                  <td headers="view-title-table-column" class="views-field views-field-title"><a
+                                      href="/node/73847"><strong>BE/653717/0189-VLA/0008</strong> - Stukken betreffende een
+                                      gebouw van "De Volksverzekering"</a> </td>
+                                  <td headers="view-type-table-column" class="views-field views-field-type">Archief
+                                    (Bestanddeel) </td>
+                                  <td headers="view-field-start-year-table-column"
+                                    class="views-field views-field-field-start-year">1993 </td>
+                                  <td headers="view-field-end-year-table-column"
+                                    class="views-field views-field-field-end-year">1993 </td>
+                                  <td headers="view-name-table-column" class="views-field views-field-name"> </td>
+                                  <td headers="view-field-thesaurus-project-type-table-column"
+                                    class="views-field views-field-field-thesaurus-project-type">Sociaal-maatschappelijk
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td headers="view-title-table-column" class="views-field views-field-title"><a
+                                      href="/node/73848"><strong>BE/653717/0189-VLA/0009</strong> - Beeldmateriaal
+                                      betreffende een constructie van "De Lijn" te Zaventem</a> </td>
+                                  <td headers="view-type-table-column" class="views-field views-field-type">Archief
+                                    (Bestanddeel) </td>
+                                  <td headers="view-field-start-year-table-column"
+                                    class="views-field views-field-field-start-year">1993 </td>
+                                  <td headers="view-field-end-year-table-column"
+                                    class="views-field views-field-field-end-year">1993 </td>
+                                  <td headers="view-name-table-column" class="views-field views-field-name">Zaventem (België
+                                    &gt; Vlaanderen &gt; Provincie Vlaams-Brabant &gt; Halle-Vilvoorde &gt; Zaventem) </td>
+                                  <td headers="view-field-thesaurus-project-type-table-column"
+                                    class="views-field views-field-field-thesaurus-project-type"> </td>
+                                </tr>
+                                <tr>
+                                  <td headers="view-title-table-column" class="views-field views-field-title"><a
+                                      href="/node/73850"><strong>BE/653717/0189-VLA/0010</strong> - Beeldmateriaal
+                                      betreffende een overwelving "Camerlinckxgeleed" te Oostende</a> </td>
+                                  <td headers="view-type-table-column" class="views-field views-field-type">Archief
+                                    (Bestanddeel) </td>
+                                  <td headers="view-field-start-year-table-column"
+                                    class="views-field views-field-field-start-year">1994 </td>
+                                  <td headers="view-field-end-year-table-column"
+                                    class="views-field views-field-field-end-year">1994 </td>
+                                  <td headers="view-name-table-column" class="views-field views-field-name">Oostende (België
+                                    &gt; Vlaanderen &gt; West-Vlaanderen &gt; Oostende &gt; Oostende) </td>
+                                  <td headers="view-field-thesaurus-project-type-table-column"
+                                    class="views-field views-field-field-thesaurus-project-type">Infrastructuur </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                      
+                          </div>
+                      
+                          <nav class="pager" role="navigation" aria-labelledby="pagination-heading">
+                            <h4 id="pagination-heading" class="visually-hidden">Paginering</h4>
+                            <ul class="pager__items js-pager__items">
+                              <li class="pager__item is-active">
+                                <a href="?page=0" title="Huidige pagina" aria-current="page">
+                                  <span class="visually-hidden">
+                                    Huidige pagina
+                                  </span>1</a>
+                              </li>
+                              <li class="pager__item">
+                                <a href="?page=1" title="Go to page 2">
+                                  <span class="visually-hidden">
+                                    Pagina
+                                  </span>2</a>
+                              </li>
+                              <li class="pager__item">
+                                <a href="?page=2" title="Go to page 3">
+                                  <span class="visually-hidden">
+                                    Pagina
+                                  </span>3</a>
+                              </li>
+                              <li class="pager__item">
+                                <a href="?page=3" title="Go to page 4">
+                                  <span class="visually-hidden">
+                                    Pagina
+                                  </span>4</a>
+                              </li>
+                              <li class="pager__item">
+                                <a href="?page=4" title="Go to page 5">
+                                  <span class="visually-hidden">
+                                    Pagina
+                                  </span>5</a>
+                              </li>
+                              <li class="pager__item">
+                                <a href="?page=5" title="Go to page 6">
+                                  <span class="visually-hidden">
+                                    Pagina
+                                  </span>6</a>
+                              </li>
+                              <li class="pager__item">
+                                <a href="?page=6" title="Go to page 7">
+                                  <span class="visually-hidden">
+                                    Pagina
+                                  </span>7</a>
+                              </li>
+                              <li class="pager__item">
+                                <a href="?page=7" title="Go to page 8">
+                                  <span class="visually-hidden">
+                                    Pagina
+                                  </span>8</a>
+                              </li>
+                              <li class="pager__item">
+                                <a href="?page=8" title="Go to page 9">
+                                  <span class="visually-hidden">
+                                    Pagina
+                                  </span>9</a>
+                              </li>
+                              <li class="pager__item pager__item--ellipsis" role="presentation">…</li>
+                              <li class="pager__item pager__item--next">
+                                <a href="?page=1" title="Ga naar volgende pagina" rel="next">
+                                  <span class="visually-hidden">Volgende pagina</span>
+                                  <span aria-hidden="true">›</span>
+                                </a>
+                              </li>
+                              <li class="pager__item pager__item--last">
+                                <a href="?page=24" title="Ga naar laatste pagina">
+                                  <span class="visually-hidden">Laatste pagina</span>
+                                  <span aria-hidden="true">»</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+                      
+                        </div>
+                      </div>
+                      
+                      </div>
+                      <div class="views-element-container block block-views block-views-blockobjects-in-archive-block-2"
+                      id="block-views-block-objects-in-archive-block-2">
+                      
+                      <h2>Objecten in het archief</h2>
+                      
+                      <div>
+                        <div
+                          class="view view-objects-in-archive view-id-objects_in_archive view-display-id-block_2 js-view-dom-id-161394a636ab34acffa4d2f7669e9729a2dfc599a7ff6cdd132e9e8225a9005d">
+                      
+                      
+                      
+                          <div class="view-content">
+                            <div class="views-row">
+                              <div class="views-row-inner" style="min-height: 217.333px;">
+                                <div class="views-field views-field-field-apa-images">
+                                  <div class="field-content"></div>
+                                </div>
+                                <div class="views-field views-field-title"><span class="field-content">Fotoalbum betreffende
+                                    het bouwen van een droogdok in het vierde havendok te Antwerpen</span></div>
+                                <div class="views-field views-field-view-node"><span class="field-content"><a
+                                      href="/node/76074" hreflang="nl">lees meer</a></span></div>
+                              </div>
+                            </div>
+                            <div class="views-row">
+                              <div class="views-row-inner" style="min-height: 217.333px;">
+                                <div class="views-field views-field-field-apa-images">
+                                  <div class="field-content"></div>
+                                </div>
+                                <div class="views-field views-field-title"><span class="field-content">Fotoalbum betreffende
+                                    het bouwen van bestuurszetel Pidpa te Antwerpen</span></div>
+                                <div class="views-field views-field-view-node"><span class="field-content"><a
+                                      href="/node/76038" hreflang="nl">lees meer</a></span></div>
+                              </div>
+                            </div>
+                            <div class="views-row">
+                              <div class="views-row-inner" style="min-height: 217.333px;">
+                                <div class="views-field views-field-field-apa-images">
+                                  <div class="field-content"></div>
+                                </div>
+                                <div class="views-field views-field-title"><span class="field-content">Fotoalbum betreffende
+                                    de bouw van vier flatgebouwen tegen Kazerne-Luchtbal te Antwerpen</span></div>
+                                <div class="views-field views-field-view-node"><span class="field-content"><a
+                                      href="/node/75986" hreflang="nl">lees meer</a></span></div>
+                              </div>
+                            </div>
+                            <div class="views-row">
+                              <div class="views-row-inner" style="min-height: 217.333px;">
+                                <div class="views-field views-field-field-apa-images">
+                                  <div class="field-content"></div>
+                                </div>
+                                <div class="views-field views-field-title"><span class="field-content">Fotoalbum betreffende
+                                    het oprichten van 263 appartementen, 4 winkels en 16 autobergplaatsen in de
+                                    Brooklynstraat te Antwerpen</span></div>
+                                <div class="views-field views-field-view-node"><span class="field-content"><a
+                                      href="/node/76009" hreflang="nl">lees meer</a></span></div>
+                              </div>
+                            </div>
+                      
+                          </div>
+                      
+                          <div class="view-footer">
+                            <p><a class="button"
+                                href="/zoeken?f%5B0%5D=search_archive%3A73734&amp;f%5B1%5D=type%3Aobject">Alle Objecten</a>
+                            </p>
+                      
+                          </div>
+                          
+
+                        </div>
+                      </div>
+                      
+                      </div>
+</div>
+                          <div class="surface region--content-right-inner cols--1 cols--lg--4 cols--xl--5">
+                            <div id="block-persistenturlblock" class="block block-general block-persistent-url-block">
+                          
+                          
+                              <p>
+                                <strong>PID:</strong>
+                          
+                                <span id="copyUrl">data.flandersarchitecture.be<wbr>/archive/5520</span>
+                              </p>
+                              <div style="display: flex;">
+                                <svg width="20" height="20" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                  <rect x="3" y="3" width="14" height="18" rx="2" ry="2" stroke="black" stroke-width="2"
+                                    fill="white" />
+                                  <rect x="7" y="7" width="14" height="18" rx="2" ry="2" stroke="black" stroke-width="2"
+                                    fill="white" />
+                                </svg><a href="" id="copyUrlButton">Kopieer URL</a>
+                              </div>
+                              <p id="statusMessage"></p>
+                              <script src="./script.js"></script>
+                          
+                            </div>
+                            <div id="block-searchinarchiveblock" class="block block-general block-search-in-archive-block">
+                          
+                          
+                              <!-- <p class="search-field">
+                          <label>Zoeken binnen dit archief:</label>
+                          <input type="text" id="seach-in-archive" data-link="/zoeken?search_api_fulltext=REPLACE_TOKEN&amp;f%5B0%5D=archief%3ABeeldarchief+van+bouwbedrijf+Van+Laere" />
+                          <a href="/zoeken?search_api_fulltext=REPLACE_TOKEN&amp;f%5B0%5D=archief%3ABeeldarchief+van+bouwbedrijf+Van+Laere">search</a>
+                          </p>
+                          <p>
+                          <a href="/zoeken" class="button">Terug naar zoeken</a>
+                          </p> -->
+                              <p>
+                                <a href="mailto:architectuurarchief@vai.be?SUBJECT=Aanvraag 0189-VLA" class="button mailto"
+                                  data-extlink="">Vraag aan<svg focusable="false" class="mailto" role="img"
+                                    aria-label="(link sends email)" xmlns="http://www.w3.org/2000/svg" viewBox="0 10 70 20">
+                                    <metadata>
+                                      <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+                                        <slicesourcebounds y="-8160" x="-8165" width="16389" height="16384"
+                                          bottomleftorigin="true"></slicesourcebounds>
+                                        <optimizationsettings>
+                                          <targetsettings targetsettingsid="0" fileformat="PNG24Format">
+                                            <png24format transparency="true" filtered="false" interlaced="false"
+                                              nomattecolor="false" mattecolor="#FFFFFF"></png24format>
+                                          </targetsettings>
+                                        </optimizationsettings>
+                                      </sfw>
+                                    </metadata>
+                                    <title>(link sends email)</title>
+                                    <path
+                                      d="M56 14H8c-1.1 0-2 0.9-2 2v32c0 1.1 0.9 2 2 2h48c1.1 0 2-0.9 2-2V16C58 14.9 57.1 14 56 14zM50.5 18L32 33.4 13.5 18H50.5zM10 46V20.3l20.7 17.3C31.1 37.8 31.5 38 32 38s0.9-0.2 1.3-0.5L54 20.3V46H10z">
+                                    </path>
+                                  </svg></a>
+                              </p>
+                          
+                            </div>
+                            <div id="block-exporttojsonblock-2" class="block block-general block-export-block">
+                          
+                          
+                              <a href="/archive/5520/json" target="_blank" class="btn btn-default">+ Zie json</a>
+                          
+                            </div>
+                          
+                          
+                          </div>
+                    </div>
+
+                  </article>
+
+                </div>
+
+</div>
+
+</div>
+
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="region region--footer clearfix">
+
+        <div class="region--footer-inner region-inner">
+          <div class="surface">
+            <div class="surface-inner">
+              <div class="container">
+                <div class="row">
+                  <div id="block-contactinfo"
+                    class="block block-block-content block-block-content279f4ef5-51d0-4e5a-a592-56661821d60c">
+
+
+
+                    <div
+                      class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                      <p><strong>Collectie<br><br>
+                          Vlaams Architectuurinstituut</strong></p>
+                      <p><strong>Parochiaanstraat 7<br><br>
+                          2000 Antwerpen</strong></p>
+                      <p>T +32 (0)3 202 04 83&nbsp;<br><br>
+                        <a href="mailto:architectuurarchief@vai.be" class="mailto"
+                          data-extlink="">architectuurarchief@vai.be<svg focusable="false" class="mailto" role="img"
+                            aria-label="(link sends email)" xmlns="http://www.w3.org/2000/svg" viewBox="0 10 70 20">
+                            <metadata>
+                              <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+                                <slicesourcebounds y="-8160" x="-8165" width="16389" height="16384"
+                                  bottomleftorigin="true"></slicesourcebounds>
+                                <optimizationsettings>
+                                  <targetsettings targetsettingsid="0" fileformat="PNG24Format">
+                                    <png24format transparency="true" filtered="false" interlaced="false"
+                                      nomattecolor="false" mattecolor="#FFFFFF"></png24format>
+                                  </targetsettings>
+                                </optimizationsettings>
+                              </sfw>
+                            </metadata>
+                            <title>(link sends email)</title>
+                            <path
+                              d="M56 14H8c-1.1 0-2 0.9-2 2v32c0 1.1 0.9 2 2 2h48c1.1 0 2-0.9 2-2V16C58 14.9 57.1 14 56 14zM50.5 18L32 33.4 13.5 18H50.5zM10 46V20.3l20.7 17.3C31.1 37.8 31.5 38 32 38s0.9-0.2 1.3-0.5L54 20.3V46H10z">
+                            </path>
+                          </svg></a>
+                      </p>
+                      <p>&nbsp;</p>
+                    </div>
+
+                  </div>
+                  <div id="block-openingsuren"
+                    class="block block-block-content block-block-content89d772bf-3978-43d5-9e5e-64e61e7fc340">
+
+
+
+                    <div
+                      class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                      <p><strong>Openingsuren Leeszaal Archief</strong></p>
+                      <p><em>Parochiaanstraat 7, 2000 Antwerpen</em></p>
+                      <p>Een bezoek is mogelijk bij voorkeur op afspraak via <a href="mailto:architectuurarchief@vai.be"
+                          class="mailto" data-extlink="">architectuurarchief@vai.be<svg focusable="false" class="mailto"
+                            role="img" aria-label="(link sends email)" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 10 70 20">
+                            <metadata>
+                              <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+                                <slicesourcebounds y="-8160" x="-8165" width="16389" height="16384"
+                                  bottomleftorigin="true"></slicesourcebounds>
+                                <optimizationsettings>
+                                  <targetsettings targetsettingsid="0" fileformat="PNG24Format">
+                                    <png24format transparency="true" filtered="false" interlaced="false"
+                                      nomattecolor="false" mattecolor="#FFFFFF"></png24format>
+                                  </targetsettings>
+                                </optimizationsettings>
+                              </sfw>
+                            </metadata>
+                            <title>(link sends email)</title>
+                            <path
+                              d="M56 14H8c-1.1 0-2 0.9-2 2v32c0 1.1 0.9 2 2 2h48c1.1 0 2-0.9 2-2V16C58 14.9 57.1 14 56 14zM50.5 18L32 33.4 13.5 18H50.5zM10 46V20.3l20.7 17.3C31.1 37.8 31.5 38 32 38s0.9-0.2 1.3-0.5L54 20.3V46H10z">
+                            </path>
+                          </svg></a></p>
+                      <p>maandag t.e.m. vrijdag: 9u - 17u&nbsp;</p>
+                      <p>weekend en feestdagen: gesloten</p>
+                      <p>zomersluit 2024: 15 juli t.e.m. 26 juli</p>
+                      <p><strong>Openingsuren Kabinet Christian Kieckens</strong></p>
+                      <p><em>Desguinlei 25, 2018 Antwerpen (DE SINGEL)</em></p>
+                      <p>Een bezoek is enkel mogelijk na een bevestigde afspraak via <a
+                          href="mailto:architectuurarchief@vai.be" class="mailto"
+                          data-extlink="">architectuurarchief@vai.be<svg focusable="false" class="mailto" role="img"
+                            aria-label="(link sends email)" xmlns="http://www.w3.org/2000/svg" viewBox="0 10 70 20">
+                            <metadata>
+                              <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+                                <slicesourcebounds y="-8160" x="-8165" width="16389" height="16384"
+                                  bottomleftorigin="true"></slicesourcebounds>
+                                <optimizationsettings>
+                                  <targetsettings targetsettingsid="0" fileformat="PNG24Format">
+                                    <png24format transparency="true" filtered="false" interlaced="false"
+                                      nomattecolor="false" mattecolor="#FFFFFF"></png24format>
+                                  </targetsettings>
+                                </optimizationsettings>
+                              </sfw>
+                            </metadata>
+                            <title>(link sends email)</title>
+                            <path
+                              d="M56 14H8c-1.1 0-2 0.9-2 2v32c0 1.1 0.9 2 2 2h48c1.1 0 2-0.9 2-2V16C58 14.9 57.1 14 56 14zM50.5 18L32 33.4 13.5 18H50.5zM10 46V20.3l20.7 17.3C31.1 37.8 31.5 38 32 38s0.9-0.2 1.3-0.5L54 20.3V46H10z">
+                            </path>
+                          </svg></a></p>
+                      <p>maandag t.e.m. vrijdag: 9u - 17u&nbsp;</p>
+                      <p>weekend en feestdagen: gesloten</p>
+                      <p><a href="/disclaimer" title="Disclaimer">Disclaimer</a> | <a href="/privacy-policy"
+                          title="Privacy Policy">Cookies &amp; Privacy</a> | <a href="javascript:void(0)"
+                          id="csconsentlink">Cookievoorkeuren</a></p>
+                    </div>
+
+                  </div>
+                  <nav role="navigation" aria-labelledby="block-mainnavigation-menu" id="block-mainnavigation"
+                    class="block block-menu navigation menu--main">
+
+                    <h2 class="visually-hidden" id="block-mainnavigation-menu">Hoofdnavigatie</h2>
+
+
+
+                    <ul class="menu">
+                      <li class="menu-item menu-item--expanded">
+                        <a href="/over">Over</a>
+                        <ul class="menu">
+                          <li class="menu-item">
+                            <a href="/over/over" data-drupal-link-system-path="node/21528">Over deze databank</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="/over/over-de-vai-collectie" data-drupal-link-system-path="node/21529">Over de
+                              VAi-collectie</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="/over/hoe-gebruik-je-de-databank" data-drupal-link-system-path="node/21530">Hoe
+                              gebruik je de databank?</a>
+                          </li>
+                        </ul>
+
+                      </li>
+                      <li class="menu-item menu-item--expanded">
+                        <a href="/diensten/archief-raadplegen-het-vai"
+                          data-drupal-link-system-path="node/21531">Diensten</a>
+                        <ul class="menu">
+                          <li class="menu-item">
+                            <a href="/diensten/archief-raadplegen-het-vai"
+                              data-drupal-link-system-path="node/21531">Archief raadplegen in het VAi</a>
+                          </li>
+                          <li class="menu-item">
+                            <a href="/diensten/leeszaalreglement"
+                              data-drupal-link-system-path="node/21532">Leeszaalreglement</a>
+                          </li>
+                        </ul>
+
+                      </li>
+                    </ul>
+
+
+
+                  </nav>
+                  <nav role="navigation" aria-labelledby="block-socialmedia-menu" id="block-socialmedia"
+                    class="block block-menu navigation menu--social-media">
+
+                    <h2 class="visually-hidden" id="block-socialmedia-menu">Social media</h2>
+
+
+
+                    <ul class="menu">
+                      <li class="menu-item">
+                        <a href="https://www.instagram.com/vlaams_architectuurinstituut" class="instagram ext"
+                          target="_blank" data-extlink="" rel="noreferrer">Instagram<svg focusable="false" class="ext"
+                            role="img" aria-label="(externe link)" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 80 40">
+                            <metadata>
+                              <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+                                <slicesourcebounds y="-8160" x="-8165" width="16389" height="16384"
+                                  bottomleftorigin="true"></slicesourcebounds>
+                                <optimizationsettings>
+                                  <targetsettings targetsettingsid="0" fileformat="PNG24Format">
+                                    <png24format transparency="true" filtered="false" interlaced="false"
+                                      nomattecolor="false" mattecolor="#FFFFFF"></png24format>
+                                  </targetsettings>
+                                </optimizationsettings>
+                              </sfw>
+                            </metadata>
+                            <title>(externe link)</title>
+                            <path
+                              d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z">
+                            </path>
+                            <path
+                              d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z">
+                            </path>
+                          </svg></a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="https://www.facebook.com/architectuurVAI" class="facebook ext" target="_blank"
+                          data-extlink="" rel="noreferrer">Facebook<svg focusable="false" class="ext" role="img"
+                            aria-label="(externe link)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40">
+                            <metadata>
+                              <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+                                <slicesourcebounds y="-8160" x="-8165" width="16389" height="16384"
+                                  bottomleftorigin="true"></slicesourcebounds>
+                                <optimizationsettings>
+                                  <targetsettings targetsettingsid="0" fileformat="PNG24Format">
+                                    <png24format transparency="true" filtered="false" interlaced="false"
+                                      nomattecolor="false" mattecolor="#FFFFFF"></png24format>
+                                  </targetsettings>
+                                </optimizationsettings>
+                              </sfw>
+                            </metadata>
+                            <title>(externe link)</title>
+                            <path
+                              d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z">
+                            </path>
+                            <path
+                              d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z">
+                            </path>
+                          </svg></a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="https://www.linkedin.com/company/vlaams-architectuurinstituut" class="linkedin ext"
+                          target="_blank" data-extlink="" rel="noreferrer">Linkedin<svg focusable="false" class="ext"
+                            role="img" aria-label="(externe link)" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 80 40">
+                            <metadata>
+                              <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+                                <slicesourcebounds y="-8160" x="-8165" width="16389" height="16384"
+                                  bottomleftorigin="true"></slicesourcebounds>
+                                <optimizationsettings>
+                                  <targetsettings targetsettingsid="0" fileformat="PNG24Format">
+                                    <png24format transparency="true" filtered="false" interlaced="false"
+                                      nomattecolor="false" mattecolor="#FFFFFF"></png24format>
+                                  </targetsettings>
+                                </optimizationsettings>
+                              </sfw>
+                            </metadata>
+                            <title>(externe link)</title>
+                            <path
+                              d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z">
+                            </path>
+                            <path
+                              d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z">
+                            </path>
+                          </svg></a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="https://twitter.com/architectuurvai" class="twitter ext" target="_blank"
+                          data-extlink="" rel="noreferrer">Twitter<svg focusable="false" class="ext" role="img"
+                            aria-label="(externe link)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40">
+                            <metadata>
+                              <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+                                <slicesourcebounds y="-8160" x="-8165" width="16389" height="16384"
+                                  bottomleftorigin="true"></slicesourcebounds>
+                                <optimizationsettings>
+                                  <targetsettings targetsettingsid="0" fileformat="PNG24Format">
+                                    <png24format transparency="true" filtered="false" interlaced="false"
+                                      nomattecolor="false" mattecolor="#FFFFFF"></png24format>
+                                  </targetsettings>
+                                </optimizationsettings>
+                              </sfw>
+                            </metadata>
+                            <title>(externe link)</title>
+                            <path
+                              d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z">
+                            </path>
+                            <path
+                              d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z">
+                            </path>
+                          </svg></a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="https://www.youtube.com/channel/UCxvSvhE_5hbnbNzExoc1uPg" class="youtube ext"
+                          target="_blank" data-extlink="" rel="noreferrer">Youtube<svg focusable="false" class="ext"
+                            role="img" aria-label="(externe link)" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 80 40">
+                            <metadata>
+                              <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+                                <slicesourcebounds y="-8160" x="-8165" width="16389" height="16384"
+                                  bottomleftorigin="true"></slicesourcebounds>
+                                <optimizationsettings>
+                                  <targetsettings targetsettingsid="0" fileformat="PNG24Format">
+                                    <png24format transparency="true" filtered="false" interlaced="false"
+                                      nomattecolor="false" mattecolor="#FFFFFF"></png24format>
+                                  </targetsettings>
+                                </optimizationsettings>
+                              </sfw>
+                            </metadata>
+                            <title>(externe link)</title>
+                            <path
+                              d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z">
+                            </path>
+                            <path
+                              d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z">
+                            </path>
+                          </svg></a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="https://www.vai.be/nieuwsbrief" class="text text-first" target="_blank">Nieuwsbrief</a>
+                      </li>
+                      <li class="menu-item">
+                        <a href="http://vai.be/" class="text" target="_blank">VAi.be</a>
+                      </li>
+                    </ul>
+
+
+
+                  </nav>
+                  <div id="block-cclicence"
+                    class="block block-block-content block-block-content3430a8b5-97e8-4f79-98e4-ada318320b57">
+
+
+
+                    <div
+                      class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item">
+                      <p><a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license noreferrer"><img
+                            alt="Creative Commons-Licentie"
+                            src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png"></a><br><br>
+                        De teksten op deze website vallen onder een <a
+                          href="http://creativecommons.org/licenses/by-sa/4.0/" rel="license noreferrer" class="ext"
+                          data-extlink="">Creative Commons Naamsvermelding-GelijkDelen-licentie<svg focusable="false"
+                            class="ext" role="img" aria-label="(externe link)" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 80 40">
+                            <metadata>
+                              <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+                                <slicesourcebounds y="-8160" x="-8165" width="16389" height="16384"
+                                  bottomleftorigin="true"></slicesourcebounds>
+                                <optimizationsettings>
+                                  <targetsettings targetsettingsid="0" fileformat="PNG24Format">
+                                    <png24format transparency="true" filtered="false" interlaced="false"
+                                      nomattecolor="false" mattecolor="#FFFFFF"></png24format>
+                                  </targetsettings>
+                                </optimizationsettings>
+                              </sfw>
+                            </metadata>
+                            <title>(externe link)</title>
+                            <path
+                              d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z">
+                            </path>
+                            <path
+                              d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z">
+                            </path>
+                          </svg></a>. Teksten mogen vrij worden gebruikt met bronvermelding: Vlaams
+                        Architectuurinstituut (<a href="https://www.vai.be">vai.be</a>).</p>
+                      <p><a href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license noreferrer"><img
+                            alt="Creative Commons-Licentie"
+                            src="https://licensebuttons.net/p/zero/1.0/80x15.png"></a><br><br>
+                        De data op deze website vallen onder een <a
+                          href="https://creativecommons.org/publicdomain/zero/1.0/" rel="license noreferrer" class="ext"
+                          data-extlink="">Creative Commons CC0-licentie<svg focusable="false" class="ext" role="img"
+                            aria-label="(externe link)" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 40">
+                            <metadata>
+                              <sfw xmlns="http://ns.adobe.com/SaveForWeb/1.0/">
+                                <slicesourcebounds y="-8160" x="-8165" width="16389" height="16384"
+                                  bottomleftorigin="true"></slicesourcebounds>
+                                <optimizationsettings>
+                                  <targetsettings targetsettingsid="0" fileformat="PNG24Format">
+                                    <png24format transparency="true" filtered="false" interlaced="false"
+                                      nomattecolor="false" mattecolor="#FFFFFF"></png24format>
+                                  </targetsettings>
+                                </optimizationsettings>
+                              </sfw>
+                            </metadata>
+                            <title>(externe link)</title>
+                            <path
+                              d="M48 26c-1.1 0-2 0.9-2 2v26H10V18h26c1.1 0 2-0.9 2-2s-0.9-2-2-2H8c-1.1 0-2 0.9-2 2v40c0 1.1 0.9 2 2 2h40c1.1 0 2-0.9 2-2V28C50 26.9 49.1 26 48 26z">
+                            </path>
+                            <path
+                              d="M56 6H44c-1.1 0-2 0.9-2 2s0.9 2 2 2h7.2L30.6 30.6c-0.8 0.8-0.8 2 0 2.8C31 33.8 31.5 34 32 34s1-0.2 1.4-0.6L54 12.8V20c0 1.1 0.9 2 2 2s2-0.9 2-2V8C58 6.9 57.1 6 56 6z">
+                            </path>
+                          </svg></a>.</p>
+                      <p>Voor beelden of andere elementen gelden specifieke voorwaarden. Zie voor meer info de <a
+                          href="/disclaimer" title="Disclaimer">disclaimer</a>.</p>
+                    </div>
+
+                  </div>
+
+
+             
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=IntersectionObserver"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OverlappingMarkerSpiderfier/1.0.3/oms.min.js"></script>
+  <script
+    src="/sites/default/files/js/js_3TxC5QaZEbk0dYgLgoBL7BlfokDxXTcu05ARdwK2u0M.js?scope=footer&amp;delta=3&amp;language=nl&amp;theme=coretheme&amp;include=eJxtkNFuwyAMRX8IlU-KHLglXg1mmHTJvn60y6Zm2guyj44uV06qSTBRIdk7B_PpD3C2W0f2MxlcEDLbT3OGGSWYC9rgi7ZMwp94rn1BxjAiU6YelheI8r5yO2kPYwGnpb_QfwOJi8PWhcvNx7ZWksuxfrc4WFARqqPqnfFh_vlessZVzojeaHMJemVInDJV_7sc1xjsLHDpaIbQWcuks6Hd0c6KDjK-r1xSpnYbeuWINoT2c7uiEW5GH1kTtqqGOF1ZHtGjQkEj-QLdp6PD"></script>
+
+
+
+  <div id="drupal-live-announce" class="visually-hidden" aria-live="polite" aria-busy="false"></div>
+</body>
+
+</html>
